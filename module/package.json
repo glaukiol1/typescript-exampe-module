@@ -1,0 +1,26 @@
+{
+  "name": "typescript-module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "test": "jest",
+    "run": "ts main.ts"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glaukiol1/typescript-exampe-module.git"
+  },
+  "keywords": [
+    "module",
+    "typescript",
+    "npm"
+  ],
+  "author": "@glaukiol1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glaukiol1/typescript-exampe-module/issues"
+  },
+  "homepage": "https://github.com/glaukiol1/typescript-exampe-module#readme"
+}
