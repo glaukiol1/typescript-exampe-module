@@ -1,3 +1,3 @@
 #!/bin/sh
 
-tsc main.ts --module es6
+tsc main.ts --module commonjs
