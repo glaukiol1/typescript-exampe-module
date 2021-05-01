@@ -5,7 +5,7 @@
   "main": "main.ts",
   "scripts": {
     "test": "jest",
-    "run": "ts main.ts"
+    "run": "tsc main.ts"
   },
   "type": "module",
   "repository": {
