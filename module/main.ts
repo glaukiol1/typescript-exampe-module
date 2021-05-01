@@ -1,22 +1,26 @@
-const AMT = 15;
-
 interface Data {
     age: number,
-    project_langauge: Array<string>,
+    project_langauges: Array<string>,
 }
 
 interface App {
     id: number,
     name: string,
-    data: object,
+    data: Data,
 }
 
+
+
 class Main implements App {
-    id=Math.ceil(Math.random()*(AMT*5))
+    id=Math.ceil(Math.random()*1000)
     name="glaukiol1"
-    data= {
+    data: Data = {
         age: 15,
-        languages: 'typescript'
+        project_langauges: [
+            "typescript",
+            "json",
+            "sh"
+        ]
     }
 }
 
@@ -26,4 +30,4 @@ function main_module(amt: number): any {
     }
 }
 
-main_module(AMT)
+export default main_module;
